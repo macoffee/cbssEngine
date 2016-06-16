@@ -1,0 +1,8 @@
+ArrayList total:57429ms
+ArrayList批量执行26202834条Insert操作，共耗时：0.362秒！
+ArrayList commit total:0.362s
+ArrayList total:57.795s
+ArrayList total:56822ms
+ArrayList批量执行1条Insert操作，共耗时：0.0秒！
+ArrayList commit total:0.0s
+ArrayList total:56.826s

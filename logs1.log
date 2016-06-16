@@ -1,0 +1,189 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+1
+close
+2
+close
+3
+close
+4
+close
+5
+close
+6
+close
+7
+close
+8
+close
+9
+close
+10
+close
+11
+close
+12
+close
+13
+close
+14
+close
+15
+close
+16
+close
+close
+read 1  temp:1 --100000
+read 2   1.415
+1
+close
+read 1  temp:2 --200000
+read 2   1.46
+2
+close
+read 1  temp:3 --300000
+read 2   2.171
+3
+close
+read 1  temp:4 --400000
+read 2   2.192
+4
+close
+read 1  temp:5 --500000
+read 2   2.902
+5
+close
+read 1  temp:6 --600000
+read 2   3.246
+6
+close
+read 1  temp:7 --700000
+read 2   2.352
+7
+close
+read 1  temp:8 --800000
+read 2   3.483
+8
+close
+read 1  temp:9 --900000
+read 2   2.995
+9
+close
+read 1  temp:10 --1000000
+read 2   4.451
+10
+close
+read 1  temp:11 --1100000
+read 2   6.46
+11
+close
+read 1  temp:12 --1200000
+read 2   8.109
+12
+close
+read 1  temp:13 --1300000
+read 2   7.296
+13
+close
+read 1  temp:14 --1400000
+close
+read 1  temp:1 --26202834
+close
+read 1  limit:--100000
+read 2  limit:--100000----0.057
+read 1  limit:--200000
+read 2  limit:--200000----0.137
+read 1  limit:--300000
+read 2  limit:--300000----0.131
+read 1  limit:--400000
+read 2  limit:--400000----1.492
+read 1  limit:--500000
+read 2  limit:--500000----0.31
+read 1  limit:--600000
+read 2  limit:--600000----0.272
+read 1  limit:--700000
+read 2  limit:--700000----0.303
+read 1  limit:--800000
+read 2  limit:--800000----0.359
+read 1  limit:--900000
+read 2  limit:--900000----0.455
+read 1  limit:--1000000
+read 2  limit:--1000000----0.522
+read 1  limit:--1100000
+read 2  limit:--1100000----0.609
+read 1  limit:--1200000
+read 2  limit:--1200000----0.701
+read 1  limit:--1300000
+read 2  limit:--1300000----42.952
+read 1  limit:--1400000
+read 1  limit:--100000
+read 2  limit:--100000----0.057
+read 1  limit:--200000
+read 2  limit:--200000----0.412
+read 1  limit:--300000
+read 2  limit:--300000----0.135
+read 1  limit:--400000
+read 2  limit:--400000----0.902
+read 1  limit:--500000
+read 2  limit:--500000----0.43
+read 1  limit:--600000
+read 2  limit:--600000----0.503
+read 1  limit:--700000
+read 2  limit:--700000----0.988
+read 1  limit:--800000
+read 2  limit:--800000----1.004
+read 1  limit:--900000
+read 2  limit:--900000----1.014
+read 1  limit:--1000000
+read 2  limit:--1000000----1.017
+read 1  limit:--1100000
+read 2  limit:--1100000----2.036
+read 1  limit:--1200000
+read 2  limit:--1200000----4.014
+read 1  limit:--1300000
+ArrayList total:-1466062194744ms
+ArrayList total:-1466062489129ms
+ArrayList total:59.18ms
+read 1  limit:--26200000
+read 2  limit:--26200000----55.304
+read 1  limit:--26100000
+read 1  limit:--26200000

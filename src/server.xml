@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Server>
+    <Region name="GoverRegion">
+        <DataZoneSource name="GovSource" catalog="wo_gov_%03d">
+            <DataZoneNode name="10.100.10.80:53306"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="root" password="root" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="10.100.10.80:53306" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://10.100.10.80:53306"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="BizRegion">
+        <DataZoneSource name="BizSource" catalog="wo_biz_%03d">
+            <DataZoneNode name="120.52.146.14:53302"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="120.52.146.14:53302" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53302"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="AnalyseRegion">
+        <DataZoneSource name="AnaSource" catalog="wo_ana">
+            <DataZoneNode name="120.52.146.14:53303"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd"
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="120.52.146.14:53303" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53303"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="SnsRegion">
+        <DataZoneSource name="SnsSource" catalog="wo_sns_%03d">
+            <DataZoneNode name="120.52.146.14:53304"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="120.52.146.14:53304" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53304"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="TenantRegion">
+        <DataZoneSource name="TenantSource" catalog="wo_tenant_%03d">
+            <DataZoneNode name="120.52.146.14:53305"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="120.52.146.14:53305" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53305"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="QueueRegion">
+        <DataZoneSource name="QueueSource" catalog="wo_queue">
+            <DataZoneNode name="queue.120.52.146.14:53301"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="queue.120.52.146.14:53301" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53301"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+    
+    <Region name="ConsoleRegion">
+        <DataZoneSource name="ConsoleSource" catalog="wo_console">
+            <DataZoneNode name="queue.120.52.146.14:53301"
+                factory="org.logicalcobwebs.proxool.ProxoolDataSource" 
+                user="wocloud" password="wocloud_passwd" 
+                useUnicode="true" characterEncoding="utf8"
+                proxool.alias="wo_console.120.52.146.14:53301" 
+                proxool.prototype-count="0"
+                proxool.minimum-connection-count="0"
+                proxool.maximum-connection-count="200"
+                proxool.simultaneous-build-throttle="10"
+                proxool.house-keeping-sleep-time="50000" 
+                proxool.maximum-active-time="90000"
+                proxool.maximum-connection-lifetime="90000"
+                proxool.house-keeping-test-sql="SELECT CURRENT_DATE"
+                proxool.driver-url="jdbc:mysql://120.52.146.14:53301"
+                proxool.driver-class="com.mysql.jdbc.Driver"
+                proxool.statistics-log-level="ERROR" />
+        </DataZoneSource>
+    </Region>
+</Server>
